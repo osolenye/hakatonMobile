@@ -5,4 +5,6 @@
     <string name="user_password2">Подтвердите пароль</string>
     <string name="registrate">регистрация</string>
     <string name="tv_result_test">tv_result_test</string>
+    <string name="go_to_registration">войти в аккаунт</string>
+    <string name="login">войти</string>
 </resources>
