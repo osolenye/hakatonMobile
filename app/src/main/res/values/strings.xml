@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">hackathon1</string>
+    <string name="user_name">имя</string>
+    <string name="user_password">пароль</string>
+    <string name="user_password2">Подтвердите пароль</string>
+    <string name="registrate">регистрация</string>
+    <string name="tv_result_test">tv_result_test</string>
 </resources>
