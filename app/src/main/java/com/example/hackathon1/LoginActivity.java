@@ -2,6 +2,7 @@ package com.example.hackathon1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -79,6 +80,9 @@ public class LoginActivity extends AppCompatActivity {
                     // extract from our json object.
                     String token = respObj.getString("access");
                     staticToken = token;
+
+                    Intent intent = new Intent(LoginActivity.this, TendersActivity.class);
+                    startActivity(intent);
 
                     // on below line we are setting this string s to our text view.
                     Toast.makeText(LoginActivity.this, token, Toast.LENGTH_SHORT).show();
