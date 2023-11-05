@@ -70,7 +70,7 @@ public class LoginActivity extends AppCompatActivity {
                 et_username.setText("");
                 et_password.setText("");
                 // on below line we are displaying a success toast message.
-                Toast.makeText(LoginActivity.this, "Вы вошли в свой аккаунт", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(LoginActivity.this, "Вы вошли в свой аккаунт", Toast.LENGTH_SHORT).show();
                 try {
                     // on below line we are parsing the response
                     // to json object to extract data from it.
@@ -85,7 +85,7 @@ public class LoginActivity extends AppCompatActivity {
                     startActivity(intent);
 
                     // on below line we are setting this string s to our text view.
-                    Toast.makeText(LoginActivity.this, token, Toast.LENGTH_SHORT).show();
+//                    Toast.makeText(LoginActivity.this, token, Toast.LENGTH_SHORT).show();
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
